@@ -11,7 +11,7 @@ ui-options-tab-misc = Основные
 ui-options-apply = Сохранить и применить
 ui-options-reset-all = Сброс изменений
 ui-options-default = Сброс к настройкам по умолчанию
-ui-options-value-percent = { TOSTRING($value, «P0») }
+ui-options-value-percent = { TOSTRING($value, "P0") }
 
 # Misc/General menu
 
@@ -63,7 +63,7 @@ ui-options-lighting-low = Низкое
 ui-options-lighting-medium = Среднее
 ui-options-lighting-high = Высокое
 ui-options-scale-label = Масштаб UI:
-ui-options-scale-auto = Автоматическое ({ TOSTRING($scale, «P0») })
+ui-options-scale-auto = Автоматическое ({ TOSTRING($scale, "P0") })
 ui-options-scale-75 = 75%
 ui-options-scale-100 = 100%
 ui-options-scale-125 = 125%

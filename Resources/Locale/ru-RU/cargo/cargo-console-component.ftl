@@ -3,7 +3,7 @@
 cargo-console-menu-title = Консоль заказа грузов
 cargo-console-menu-account-name-label = Аккаунт:{ " " }
 cargo-console-menu-account-name-none-text = Нет
-cargo-console-menu-account-name-format = [bold][color={ $color }]{ $name }[/color][/bold] [font=«Monospace»]\[{ $code }\][/font]
+cargo-console-menu-account-name-format = [bold][color={ $color }]{ $name }[/color][/bold] [font="Monospace"]\[{ $code }\][/font]
 cargo-console-menu-shuttle-name-label = Название шаттла:{ " " }
 cargo-console-menu-shuttle-name-none-text = Нет
 cargo-console-menu-points-label = Баланс:{ " " }
@@ -78,12 +78,12 @@ cargo-funding-alloc-console-label-save-fail = [bold]Разделение выр�
     }{ $val }%)[/color]
 # Slip template
 cargo-acquisition-slip-body = [head=3]Детали актива[/head]
-    { «[bold]Товар:[/bold]» } { $product }
-    { «[bold]Описание:[/bold]» } { $description }
-    { «[bold]Цена за единицу:[/bold» }] ${ $unit }
-    { «[bold]Количество:[/bold]» } { $amount }
-    { «[bold]Сумма:[/bold]» } ${ $cost }
+    { "[bold]Товар:[/bold]" } { $product }
+    { "[bold]Описание:[/bold]" } { $description }
+    { "[bold]Цена за единицу:[/bold" }] ${ $unit }
+    { "[bold]Количество:[/bold]" } { $amount }
+    { "[bold]Сумма:[/bold]" } ${ $cost }
 
-    { «[head=3]Детали покупки[/head]» }
-    { «[bold]Заказчик:[/bold]» } { $orderer }
-    { «[bold]Причина:[/bold]» } { $reason }
+    { "[head=3]Детали покупки[/head]" }
+    { "[bold]Заказчик:[/bold]" } { $orderer }
+    { "[bold]Причина:[/bold]" } { $reason }

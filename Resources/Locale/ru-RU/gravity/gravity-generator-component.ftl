@@ -28,7 +28,7 @@ gravity-generator-window-power-label = { $draw } / { $max } Вт
 ## UI ETA label
 
 gravity-generator-window-eta-none = Н/Д
-gravity-generator-window-eta-value = { TOSTRING($left, «m\\:ss») }
+gravity-generator-window-eta-value = { TOSTRING($left, "m\\:ss") }
 
 ## Popup
 

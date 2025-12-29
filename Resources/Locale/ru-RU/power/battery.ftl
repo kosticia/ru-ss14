@@ -18,5 +18,5 @@ battery-menu-eta-value = ~{ $minutes } мин
 battery-menu-eta-value-max = >{ $minutes } мин
 battery-menu-eta-value-na = Н/Д
 battery-menu-power-value = { POWERWATTS($value) }
-battery-menu-stored-percent-value = { TOSTRING($value, «P1») }
+battery-menu-stored-percent-value = { TOSTRING($value, "P1") }
 battery-menu-stored-energy-value = { ENERGYWATTHOURS($value) }

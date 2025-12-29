@@ -39,7 +39,7 @@ comp-kitchen-spike-butcher =
 comp-kitchen-spike-unhook-verb = Снять с крюка
 comp-kitchen-spike-hooked = [color=red]На крюке { CAPITALIZE($victim) }![/color]
 comp-kitchen-spike-meat-name = { $name } ({ $victim })
-comp-kitchen-spike-victim-examine = [color=orange]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BASIC($target, «выглядят», «выглядит») } довольно { GENDER($target) ->
+comp-kitchen-spike-victim-examine = [color=orange]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-BASIC($target, "выглядят", "выглядит") } довольно { GENDER($target) ->
         [male] худым
         [female] худой
         [epicene] худыми
