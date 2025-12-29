@@ -1,7 +1,7 @@
 ﻿command-help-usage =
     Usage:
 command-help-invertible =
-    The behaviour of this command can be inverted using the "not" prefix.
+    The behaviour of this command can be inverted using the «not» prefix.
 command-description-tpto =
     Teleport the given entities to some target entity.
 command-description-player-list =
@@ -119,7 +119,7 @@ command-description-nearby =
 command-description-first =
     Returns the first entry of the given enumerable.
 command-description-splat =
-    "Splats" a block, value, or variable, creating N copies of it in a list.
+    «Splats» a block, value, or variable, creating N copies of it in a list.
 command-description-val =
     Casts the given value, block, or variable to the given type. This is mostly a workaround for current limitations of variables.
 command-description-var =
@@ -208,7 +208,7 @@ command-description-tp-coords =
 command-description-tp-to =
     Teleports the given entities to the target entity.
 command-description-tp-into =
-    Teleports the given entities "into" the target entity, attaching it at (0 0) relative to it.
+    Teleports the given entities «into» the target entity, attaching it at (0 0) relative to it.
 command-description-comp-get =
     Gets the given component from the given entity.
 command-description-comp-add =
@@ -234,7 +234,7 @@ command-description-rng-prob =
 command-description-sum =
     Computes the sum of the input.
 command-description-bin =
-    "Bins" the input, counting up how many times each unique element occurs.
+    «Bins» the input, counting up how many times each unique element occurs.
 command-description-extremes =
     Returns the two extreme ends of a list, interwoven.
 command-description-sortby =

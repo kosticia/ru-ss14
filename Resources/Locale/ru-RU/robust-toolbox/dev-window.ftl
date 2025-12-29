@@ -1,4 +1,4 @@
-﻿## "Textures" dev window tab
+﻿## «Textures» dev window tab
 
 dev-window-tab-textures-title = Textures
 dev-window-tab-textures-reload = Reload
@@ -9,7 +9,7 @@ dev-window-tab-textures-info = Width: { $width } Height: { $height }
     Name: { $name }
     Est. memory usage: { $bytes }
 
-## "Render Targets" dev window tab
+## «Render Targets» dev window tab
 dev-window-tab-render-targets-title = Render Targets
 dev-window-tab-render-targets-reload = Reload
 dev-window-tab-render-targets-filter = Filter

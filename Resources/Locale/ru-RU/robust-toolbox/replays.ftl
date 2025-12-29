@@ -24,7 +24,7 @@ cmd-replay-set-time-desc = Jump forwards or backwards to some specific time.
 cmd-replay-set-time-help = replay_set <tick or time>
 cmd-replay-set-time-hint = Tick or timespan (HH:MM:SS), starting from
 
-cmd-replay-error-time = "{$time}" is not an integer or timespan.
+cmd-replay-error-time = «{$time}» is not an integer or timespan.
 cmd-replay-error-args = Wrong number of arguments.
 cmd-replay-error-no-replay = Not currently playing a replay.
 cmd-replay-error-already-loaded = A replay is already loaded.

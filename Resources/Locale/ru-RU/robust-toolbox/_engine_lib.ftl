@@ -22,7 +22,7 @@ zzzz-object-pronoun = { GENDER($ent) ->
 
 # Used internally by the DAT-OBJ() function.
 # Not used in en-US. Created to support other languages.
-# (e.g., "to him," "for her")
+# (e.g., "to him," «for her»)
 zzzz-dat-object = { GENDER($ent) ->
     [male] him
     [female] her
@@ -32,7 +32,7 @@ zzzz-dat-object = { GENDER($ent) ->
 
 # Used internally by the GENITIVE() function.
 # Not used in en-US. Created to support other languages.
-# e.g., "у него" (Russian), "seines Vaters" (German).
+# e.g., «у него» (Russian), «seines Vaters» (German).
 zzzz-genitive = { GENDER($ent) ->
     [male] his
     [female] her

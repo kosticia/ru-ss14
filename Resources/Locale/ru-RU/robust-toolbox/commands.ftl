@@ -13,7 +13,7 @@ cmd-parse-failure-uid = {$arg} is not a valid entity UID.
 cmd-parse-failure-mapid = {$arg} is not a valid MapId.
 cmd-parse-failure-enum = {$arg} is not a {$enum} Enum.
 cmd-parse-failure-grid = {$arg} is not a valid grid.
-cmd-parse-failure-cultureinfo = "{$arg}" is not valid CultureInfo.
+cmd-parse-failure-cultureinfo = «{$arg}» is not valid CultureInfo.
 cmd-parse-failure-entity-exist = UID {$arg} does not correspond to an existing entity.
 cmd-parse-failure-session = There is no session with username: {$username}
 
@@ -59,7 +59,7 @@ cmd-list-desc = Lists available commands, with optional search filter.
 cmd-list-help = Usage: {$command} [filter]
     Lists all available commands. If an argument is provided, it will be used to filter commands by name.
 
-cmd-list-heading = SIDE NAME            DESC{"\u000A"}-------------------------{"\u000A"}
+cmd-list-heading = SIDE NAME            DESC{»\u000A»}-------------------------{»\u000A»}
 
 cmd-list-arg-filter = [filter]
 
@@ -101,8 +101,8 @@ cmd-gc_mode-arg-type = [type]
 cmd-mem-desc = Prints managed memory info.
 cmd-mem-help = Usage: {$command}
 
-cmd-mem-report = Heap Size: { TOSTRING($heapSize, "N0") }
-    Total Allocated: { TOSTRING($totalAllocated, "N0") }
+cmd-mem-report = Heap Size: { TOSTRING($heapSize, «N0») }
+    Total Allocated: { TOSTRING($totalAllocated, «N0») }
 
 ## 'physics' command
 cmd-physics-overlay = {$overlay} is not a recognised overlay
@@ -137,7 +137,7 @@ cmd-dump_event_tables-arg-entity = <entityUid>
 cmd-monitor-desc = Toggles a debug monitor in the F3 menu.
 cmd-monitor-help = Usage: {$command} <name>
     Possible monitors are: { $monitors }
-    You can also use the special values "-all" and "+all" to hide or show all monitors, respectively.
+    You can also use the special values «-all» and «+all» to hide or show all monitors, respectively.
 
 cmd-monitor-arg-monitor = <monitor>
 cmd-monitor-invalid-name = Invalid monitor name
@@ -556,7 +556,7 @@ cmd-hub_advertise_now-desc = Immediately advertise to the master hub server.
 cmd-hub_advertise_now-help = Usage: {$command}
 
 cmd-echo-desc = Echo arguments back to the console.
-cmd-echo-help = Usage: {$command} "<message>"
+cmd-echo-help = Usage: {$command} «<message>»
 
 ## 'vfs_ls' command
 cmd-vfs_ls-desc = List directory contents in the VFS.
